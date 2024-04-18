@@ -1,0 +1,3 @@
+[submodule "comic-reader-front"]
+	path = comic-reader-front
+	url = https://github.com/mako8231/comic-reader-front.git
