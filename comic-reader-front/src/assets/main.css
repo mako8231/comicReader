@@ -1,25 +1,41 @@
 @import './base.css';
 
+body {
+    background-color: black;
+}
+
 .section-subtitle {
     text-align: center;
-    margin-bottom: 20px;
+    color: rgb(192, 100, 118);
+    padding: 10px;
 }
 
 .comics-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+   
 }
 
 .comic-card {
-    display: inline;
-    
+    background-color: rgba(66, 41, 55, 0.205);
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 5px 5px;
 }
 
+.comic-title {
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: rgb(202, 177, 187);
+}
+
+
 .comic-thumbnail {
-    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    width: 170px;
     height: auto;
 }
