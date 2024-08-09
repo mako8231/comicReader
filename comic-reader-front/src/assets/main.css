@@ -1,5 +1,10 @@
 @import './base.css';
 
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./fonts/UbuntuMono-B.ttf");
+}
+
 body {
     background-color: black;
 }
@@ -8,10 +13,16 @@ body {
     text-align: center;
     color: rgb(192, 100, 118);
     padding: 10px;
+    font-family: "Ubuntu";
 }
 
 .comics-section {
    
+}
+
+.section-line {
+    color: white;
+    
 }
 
 .comic-card {
@@ -19,7 +30,7 @@ body {
     border-radius: 20px;
     padding: 10px;
     border-color: black;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     box-shadow: 5px 5px;
 }
@@ -30,6 +41,8 @@ body {
     margin-right: 20%;
     text-align: center;
     color: rgb(202, 177, 187);
+    font-size: 14pt;
+    font-family: "Ubuntu";
 }
 
 
